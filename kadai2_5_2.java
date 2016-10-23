@@ -11,7 +11,7 @@ public class kadai2_5_2 {
 			System.out.println("1~100の数値を入力してください。");
 			strin = scan.next();
 			// 数値チェック
-			if (chknum(strin) == true){
+			if (chknum(strin)){
 				num = Integer.parseInt(strin);
 				scan.close();
 				break;
